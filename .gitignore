@@ -1,0 +1,11 @@
+._*
+*.pyc
+.DS_Store
+*.npz
+DIV2K/
+tlx/
+sample/
+samples/
+checkpoint/
+__pycache__/
+img/
