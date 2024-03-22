@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head data-suburl="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Sign In -  OpenI - 启智AI开源社区提供普惠算力！</title>
+	<link rel="manifest" href="/manifest.json?v=223d5ca9da4653a40dac4814fe35bc22" crossorigin="use-credentials">
+	
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
+				
+				console.info('ServiceWorker registration successful with scope: ', registration.scope);
+			}, function(err) {
+				
+				console.info('ServiceWorker registration failed: ', err);
+			});
+		}
+	</script>
+	
+	<meta name="theme-color" content="#6cc644">
+	<meta name="author" content="OpenI" />
+	<meta name="description" content="OpenI启智开源社区旗下的一站式AI开发协作平台，汇聚人工智能开源项目；提供代码托管、数据共享、模型训练等AI开发流水线功能；用户可在线使用鹏城实验室搭建的鹏城云脑、中国算力网的普惠算力，包含GPU、NPU等多样化加速资源。" />
+	<meta name="keywords" content="人工智能,开源社区,AI开发,普惠算力,代码托管">
+	<meta name="referrer" content="strict-origin-when-cross-origin" />
+	<meta name="_csrf" content="3zJTN3_urwrHh4986-S2cBabfZ46MTcxMTExNDI0NDkyMDg2MjgyMA" />
+	
+	
+	
+
+	<script>
+	/*
+	@licstart  The following is the entire license notice for the
+        JavaScript code in this page.
+
+	Copyright (c) 2016 The Gitea Authors
+	Copyright (c) 2015 The Gogs Authors
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+	---
+	Licensing information for additional javascript libraries can be found at:
+	  {{StaticUrlPrefix}}/vendor/librejs.html
+
+	@licend  The above is the entire license notice
+        for the JavaScript code in this page.
+	*/
+	</script>
+	<script>
+		window.config = {
+			AppSubUrl: '',
+			StaticUrlPrefix: '',
+			csrf: '3zJTN3_urwrHh4986-S2cBabfZ46MTcxMTExNDI0NDkyMDg2MjgyMA',
+			HighlightJS: false,
+			Minicolors: false,
+			SimpleMDE: false,
+			Tribute: false,
+			U2F: false,
+			Heatmap: false,
+			heatmapUser: null,
+			NotificationSettings: {
+				MinTimeout:  10000 ,
+				TimeoutStep:   10000 ,
+				MaxTimeout:  60000 ,
+				EventSourceUpdateTime:  10000 ,
+			},
+      
+		};
+		
+			window.sessionStorage.removeItem('_csrf');
+		
+	</script>
+	<link rel="shortcut icon" href="/img/favicon.png?v=223d5ca9da4653a40dac4814fe35bc22">
+	<link rel="mask-icon" href="/img/openi-safari.svg?v=223d5ca9da4653a40dac4814fe35bc22" color="#609926">
+	<link rel="fluid-icon" href="/img/gitea-lg.png?v=223d5ca9da4653a40dac4814fe35bc22" title="OpenI - 启智AI开源社区提供普惠算力！">
+	<link rel="stylesheet" href="/vendor/assets/font-awesome/css/font-awesome.min.css?v=223d5ca9da4653a40dac4814fe35bc22">
+	<link rel="preload" as="font" href="/fomantic/themes/default/assets/fonts/icons.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="preload" as="font" href="/fomantic/themes/default/assets/fonts/outline-icons.woff2" type="font/woff2" crossorigin="anonymous">
+
+
+
+	<link rel="stylesheet" href="/fomantic/semantic.min.css?v=223d5ca9da4653a40dac4814fe35bc22">
+	<link rel="stylesheet" href="/css/index.css?v=223d5ca9da4653a40dac4814fe35bc22">
+	<noscript>
+		<style>
+			.dropdown:hover > .menu { display: block; }
+			.ui.secondary.menu .dropdown.item > .menu { margin-top: 0; }
+		</style>
+	</noscript>
+
+	<style class="list-search-style"></style>
+
+	<meta property="og:title" content="OpenI - 启智AI开源社区提供普惠算力！">
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/img/gitea-lg.png" />
+	<meta property="og:url" content="https://openi.pcl.ac.cn/" />
+	<meta property="og:description" content="OpenI启智开源社区旗下的一站式AI开发协作平台，汇聚人工智能开源项目；提供代码托管、数据共享、模型训练等AI开发流水线功能；用户可在线使用鹏城实验室搭建的鹏城云脑、中国算力网的普惠算力，包含GPU、NPU等多样化加速资源。">
+
+<meta property="og:site_name" content="OpenI - 启智AI开源社区提供普惠算力！" />
+
+<link rel="stylesheet" href="/RemixIcon_Fonts_v2.5.0/fonts/remixicon.css?v=223d5ca9da4653a40dac4814fe35bc22">
+<link rel="stylesheet" href="/css/placeholder.css?v=1711114245">
+<script src="/js/placeholder.js?v=1711114245"></script>
+
+<script  src="/self/func.js?v=223d5ca9da4653a40dac4814fe35bc22" type="text/javascript"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?46149a0b61fdeddfe427ff4de63794ba";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+	
+
+	<div class="full height">
+		<noscript>This website works better with JavaScript.</noscript>
+
+		
+
+		
+			<div class="ui top secondary stackable main menu following bar dark">
+				<div class="ui container" id="navbar">
+	<div class="item brand" style="justify-content: space-between;height:62px;">
+		<a href="https://openi.org.cn/">
+			<img class="ui mini image" src="/img/logo-w.svg">
+		</a>
+		<div class="ui basic icon button mobile-only" id="navbar-expand-toggle">
+			<i class="sidebar icon"></i>
+		</div>
+	</div>
+	<div class="item brand" style="padding-right:0.6rem">
+		<a href="/">
+			
+			<div>
+				<div style="display:flex">
+					<div style="line-height:24px;font-weight:700;font-size:24px;color:rgba(91,185,115,1);margin-right:2px;">AI</div>
+					<div style="line-height:24px;font-weight:700;font-size:21px;color:rgba(91,185,115,1);">协作平台</div>
+				</div>
+				<div style="font-weight:300;font-size:12px;color: rgba(254,221,89,1);font-style:normal;letter-spacing: 0.1px;line-height:17px;">Powered  by  C²NET</div>
+			</div>
+		</a>
+	</div>
+	
+		<div class="item edge">
+			<div class="dropdown-menu">
+				<a class=" item lfpd" href="/user/login">
+					 Home  <i class="dropdown icon mglf"></i>
+				</a>
+				
+				<div class="dropdown-content"  style="min-width: 110px;border-radius:4px;min-width: max-content;">
+					<a  style="border: none;color: #000;" class=" item" href="/user/login">Issues</a>
+					<a  style="border: none;color: #000; white-space: nowrap;" class=" item"   href="/user/login">Pull Requests</a>
+					<a  style="border: none;color: #000;" class=" item" href="/user/login">Milestones</a>
+					<a  style="border: none;color: #000;" class=" item" href="/cloudbrains">Cloudbrain Task</a>
+					<a  style="border: none;color: #000;" class=" item" href="/reward/point">Calculation Points</a>
+					
+				</div>
+			</div>
+		</div>
+
+		<a class="item" href="/explore/repos/square">Repositories</a>
+		<a class="item" href="/explore/datasets">Datasets</a>
+		<div class="ui simple dropdown item" >
+			<span class="menu-new-dot">Model</span>
+			<i class="dropdown icon"></i>
+			<div class="menu">
+				<a class="item" href="/modelsquare/main">Model Square</a>
+				<a class="item" href="/extension/modelbase"><span class="menu-new" style="margin-right: 20px;">Large Model Base</span></a>	
+				<a class="item" href="/extension/mind"><span class="menu-new" 
